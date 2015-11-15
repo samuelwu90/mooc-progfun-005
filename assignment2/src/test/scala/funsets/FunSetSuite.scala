@@ -60,8 +60,6 @@ class FunSetTest extends FunSuite {
   }
 
   test("map") {
-    println(map(Set(1,2,3), x => x * 2)(2))
-    // println(map(Set(1,2,3), x => x * 2)(2))
     assert( map(Set(1,2,3), x => x * 2)(2) == true )
     assert( map(Set(1,2,3), x => x * 2)(4) == true )
     assert( map(Set(1,2,3), x => x * 2)(6) == true )
